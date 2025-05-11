@@ -1,0 +1,52 @@
+# Build results
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code project settings
+.vscode/
+
+# Tooling artifacts
+*.vs/
+*.dbmdl
+*.pdb
+*.mdb
+*.cache
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# dotnet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore IDE-specific files
+*.ide
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Node/npm (if used in CLI or template rendering)
+node_modules/
+
+# CLI tool build artifacts (fyx)
+fyx/bin/
+fyx/obj/
+
+# Example apps (compiled output)
+examples/**/bin/
+examples/**/obj/
